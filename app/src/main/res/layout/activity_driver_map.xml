@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverMapActivity" >
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+   <LinearLayout
+       android:layout_gravity="bottom"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <Button
+           android:id="@+id/btnFakeLoc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAllCaps="false"
+           android:layout_margin="5dp"
+           android:text="fake gps"
+           android:textColor="@color/transparent"
+           android:background="@color/transparent"
+           />
+
+       <TextView
+           android:id="@+id/txtPriceDriver"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:background="@color/white"
+           android:padding="5dp"
+           android:text="30000VND"
+           android:textAlignment="center" />
+       <LinearLayout
+           android:layout_margin="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:layout_margin="3dp"
+               android:background="@drawable/panel_rounded_bg"
+               android:textAllCaps="false"
+               android:id="@+id/btnPickup"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Pick Up"/>
+           <Button
+               android:layout_margin="3dp"
+               android:background="@drawable/panel_rounded_bg"
+               android:textAllCaps="false"
+               android:id="@+id/btnPickDown"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Pick Down"/>
+       </LinearLayout>
+   </LinearLayout>
+</FrameLayout>

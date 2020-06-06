@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hxtruong.grabbikeapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".authentication.Authentication" />
+        <activity android:name=".authentication.ResetPasswordActivity" />
+
+        <service
+            android:name="core.services.GpsServices"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".CustomerMapActivity" />
+        <activity android:name=".EditAddressActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".route.ShowRouteActivity"
+            android:label="@string/title_activity_show_route" />
+        <activity android:name=".WaitingForFindingDriver.WaitForFindingDriver" />
+        <activity
+            android:name=".DriverMapActivity"
+            android:label="@string/title_activity_driver_map" />
+        <activity
+            android:name=".UpdateMapRealtimeActivity"
+            android:label="@string/title_activity_update_map_realtime" />
+        <activity android:name=".WaitingLocationActivity" />
+        <activity android:name=".WaitingLocationDriverActivity"></activity>
+        <activity android:name=".FinishTripActivity"></activity>
+    </application>
+
+</manifest>

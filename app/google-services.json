@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "34625605963",
+    "firebase_url": "https://grabapp-d7f3d.firebaseio.com",
+    "project_id": "grabapp-d7f3d",
+    "storage_bucket": "grabapp-d7f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34625605963:android:32a74c46276b71e1",
+        "android_client_info": {
+          "package_name": "com.example.hxtruong.grabbikeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34625605963-obisi264qn0074odk5tr3lqm71g9pff9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hxtruong.grabbikeapp",
+            "certificate_hash": "1931248e8749a4767cdae46bf2813da6dd618e0c"
+          }
+        },
+        {
+          "client_id": "34625605963-lka1f96covmm64cgijtolnpvolbk3vsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hxtruong.grabbikeapp",
+            "certificate_hash": "de42ee727999c1bd9b2855d7a42a76fccf3d4e91"
+          }
+        },
+        {
+          "client_id": "34625605963-kf95olr9ckruaj6u7droujrmggat6fo1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hxtruong.grabbikeapp",
+            "certificate_hash": "bfbf1ff2ecd2d138ff14e5cb669733bbab8ffc5c"
+          }
+        },
+        {
+          "client_id": "34625605963-78ts4ocr4evk2hbh717no6hm0309ksqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hxtruong.grabbikeapp",
+            "certificate_hash": "694d6457a8fce7f8a175648553a03b15ca1d328f"
+          }
+        },
+        {
+          "client_id": "34625605963-h6ovpdm41c9sob2rau3ua0o8s7ig3r1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hxtruong.grabbikeapp",
+            "certificate_hash": "c3dd057f56c824f595742606a412d4dd48e771e3"
+          }
+        },
+        {
+          "client_id": "34625605963-074kb2u4jlfg8429v3r8n6uvl3apd1vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_y24tb2jiIKMF56numvR3K0fmyktBHKQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34625605963-074kb2u4jlfg8429v3r8n6uvl3apd1vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
